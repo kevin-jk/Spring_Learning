@@ -2,29 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b47360d-3807-4375-a57d-6f1668ca330b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/aop/Spring源码阅读8-AOP概述.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/aop/Spring源码阅读9-Spring AOP设计与实现1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/img/BeanDefinition的载入和解析.vsdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/img/Bean的依赖注入.vsdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/ioc/Spring源码阅读1-IOC相关概念.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/ioc/Spring源码阅读2-Spring IOC 容器设计的整体布局.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/ioc/Spring源码阅读3-BeanDefinition的Resource定位.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/ioc/Spring源码阅读4-BeanDefinition的载入和解析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/ioc/Spring源码阅读5-BeanDefinition的注册.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/ioc/Spring源码阅读6-IOC容器的依赖注入.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/ioc/Spring源码阅读7-IOC容器初始化设计.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/ComputeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/ComputeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/TimeSpendLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kun/learning/spring/test/EventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kun/learning/spring/test/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/MannuaCGlibAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/MannuaJDKAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/advice/BeforeMethodAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/BizProcessMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/UserBizService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/ComputeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/ComputeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/ComputeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/ComputeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/TimeSpendLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/advice/TimeSpendLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kun/learning/spring/test/EventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kun/learning/spring/test/EventTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,32 +43,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="174" selection-start-line="174" selection-end-line="174" />
+            <state relative-caret-position="207">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/advice/TimeSpendLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/UserBizService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#3877#3878#0" expanded="true" />
-                <element signature="e#3897#3898#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/MannuaCGlibAop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/TimeSpendLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="574">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,49 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/aop/Spring源码阅读8-AOP概述.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="191">
-                <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/MannuaJDKAop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/spring-aop-5.1.5.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactoryBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/ComputeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/ComputeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="146">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,19 +106,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/advice/BeforeMethodAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
+            <state relative-caret-position="184">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="8" selection-end-column="37" />
+            <state relative-caret-position="184">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/BizProcessMock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -206,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kun/learning/spring/test/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kun/learning/spring/test/EventTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeEvent.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/doc/ioc/IOC容器启动过程.md" />
         <option value="$PROJECT_DIR$/doc/ioc/IOC相关概念.md" />
@@ -226,6 +210,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/TimeSpendLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/advice/BeforeMethodAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/ComputeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/ComputeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/advice/TimeSpendLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/BizProcessMock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/UserBizService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/MannuaCGlibAop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/MannuaJDKAop.java" />
       </list>
     </option>
   </component>
@@ -245,8 +239,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1315" />
-    <option name="y" value="16" />
+    <option name="x" value="1352" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -307,7 +301,46 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.acknowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.acknowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="advice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.acknowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.acknowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="MannuaJDKAop.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="spring.acknowledge" type="b2602c69:ProjectViewProjectNode" />
@@ -636,22 +669,29 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557898478072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557901685697" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\kun_practice\Spring_Learning\doc\aop" />
-      <recent name="E:\project\kun_practice\Spring_Learning\doc\ioc" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\project\kun_practice\Spring_Learning\doc\img" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kun.learning.spring.test" />
+      <recent name="com.kun.leanring.spring.aop.service" />
+      <recent name="com.kun.leanring.spring.aop.advice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\kun_practice\Spring_Learning\src\main\java\com\kun\leanring\spring\aop\service" />
+      <recent name="E:\project\kun_practice\Spring_Learning\src\main\java\com\kun\leanring\spring\aop" />
+      <recent name="E:\project\kun_practice\Spring_Learning\doc\aop" />
+      <recent name="E:\project\kun_practice\Spring_Learning\doc\ioc" />
       <recent name="E:\project\kun_practice\Spring_Learning\doc\img" />
     </key>
   </component>
@@ -775,6 +815,7 @@
       <workItem from="1557711625477" duration="4506000" />
       <workItem from="1557797860467" duration="29034000" />
       <workItem from="1557885416508" duration="6039000" />
+      <workItem from="1557901412931" duration="272000" />
     </task>
     <servers />
   </component>
@@ -805,7 +846,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137705000" />
+    <option name="totallyTimeSpent" value="137977000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -821,7 +862,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="top" id="Maven" order="0" side_tool="true" weight="0.3288889" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39179105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39605543" />
       <window_info id="Structure" order="1" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1238,86 +1279,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultDocumentLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DocumentLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="405" column="5" lean-forward="true" selection-start-line="405" selection-start-column="5" selection-end-line="405" selection-end-column="5" />
-          <folding>
-            <element signature="e#14624#14625#0" expanded="true" />
-            <element signature="e#14675#14676#0" expanded="true" />
-            <element signature="e#47940#47941#0" expanded="true" />
-            <element signature="e#47983#47984#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="512" column="31" lean-forward="true" selection-start-line="512" selection-start-column="31" selection-end-line="512" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionDocumentReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="310" column="48" lean-forward="true" selection-start-line="310" selection-start-column="48" selection-end-line="310" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="165" column="25" selection-start-line="165" selection-start-column="25" selection-end-line="165" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/ioc/IOC容器启动过程.md" />
-    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读4-BeanDefinition的载入和解析.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="158">
-            <caret line="356" column="17" lean-forward="true" selection-start-line="356" selection-start-column="17" selection-end-line="356" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读4-BeanDefinition的载入和解析.md" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1358,16 +1320,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读2-Spring IOC 容器设计的整体布局.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="328">
-            <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读2-Spring IOC 容器设计的整体布局.md" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -1379,16 +1332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读7-IOC容器初始化设计.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读7-IOC容器初始化设计.md" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1416,21 +1360,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读3-BeanDefinition的Resource定位.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="552">
-            <caret line="99" column="3" lean-forward="true" selection-start-line="35" selection-end-line="99" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读3-BeanDefinition的Resource定位.md" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/ConfigurableApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -1510,16 +1440,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读6-IOC容器的依赖注入.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="7567">
-            <caret line="329" column="74" selection-start-line="329" selection-start-column="74" selection-end-line="329" selection-end-column="74" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读6-IOC容器的依赖注入.md" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2806">
@@ -1538,26 +1459,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读1-IOC相关概念.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读5-BeanDefinition的注册.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读1-IOC相关概念.md" />
+    <entry file="file://$PROJECT_DIR$/doc/ioc/Spring源码阅读5-BeanDefinition的注册.md" />
     <entry file="jar://$USER_HOME$/.ideaLibSources/spring-aop-5.1.5.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
@@ -1631,7 +1534,7 @@
               <point x="0.0" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-131.5" y="-9.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-131.0" y="-9.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1639,14 +1542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/aop/Spring源码阅读9-Spring AOP设计与实现1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/aop/Spring源码阅读9-Spring AOP设计与实现1.md" />
     <entry file="jar://$USER_HOME$/.ideaLibSources/spring-aop-5.1.5.RELEASE-sources.jar!/org/springframework/aop/ThrowsAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
@@ -1654,17 +1550,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/Main.java" />
+    <entry file="file://$PROJECT_DIR$/doc/aop/Spring源码阅读8-AOP概述.md" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        <state relative-caret-position="272">
+          <caret line="180" column="9" lean-forward="true" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="9" />
           <folding>
             <element signature="e#3877#3878#0" expanded="true" />
             <element signature="e#3897#3898#0" expanded="true" />
@@ -1672,68 +1564,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/ComputeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/spring-aop-5.1.5.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="1081">
           <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/ComputeService.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7084">
+          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/ComputeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/ComputeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="207">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagChangeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/FlagService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/advice/TimeSpendLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/event/TimeSpendLogger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/dd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="138">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/advice/BeforeMethodAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/BizProcessMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/service/UserBizService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/aop/Spring源码阅读8-AOP概述.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="191">
-            <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/MannuaCGlibAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kun/leanring/spring/aop/MannuaJDKAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

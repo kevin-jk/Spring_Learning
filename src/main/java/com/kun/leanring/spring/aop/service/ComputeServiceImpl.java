@@ -1,6 +1,6 @@
-package com.kun.leanring.spring.event;
+package com.kun.leanring.spring.aop.service;
 
-import org.springframework.stereotype.Component;
+import com.kun.leanring.spring.aop.service.ComputeService;
 import org.springframework.stereotype.Service;
 
 /**

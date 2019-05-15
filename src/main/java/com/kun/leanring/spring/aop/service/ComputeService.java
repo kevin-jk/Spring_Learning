@@ -1,4 +1,4 @@
-package com.kun.leanring.spring.event;
+package com.kun.leanring.spring.aop.service;
 
 /**
  * @author: jrjiakun

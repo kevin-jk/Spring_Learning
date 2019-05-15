@@ -1,5 +1,6 @@
-package com.kun.leanring.spring.event;
+package com.kun.leanring.spring;
 
+import com.kun.leanring.spring.aop.service.ComputeService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
