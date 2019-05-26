@@ -10,29 +10,39 @@
 
     <bean id="flagService" class="com.kun.leanring.spring.event.FlagService"/>
 
-    <bean name="timeAop" class="org.springframework.aop.framework.ProxyFactoryBean">
-        <property name="target">
-            <ref bean="computeServiceImpl"></ref>
-        </property>
-        <property name="interceptorNames">
-            <list>
-                <value>timeSpendLogger</value>
-            </list>
-        </property>
-        <property name="interfaces">
-            <value>com.kun.leanring.spring.aop.service.ComputeService</value>
-        </property>
-    </bean>
+    <!--<bean name="timeAop" class="org.springframework.aop.framework.ProxyFactoryBean">-->
+        <!--<property name="target">-->
+            <!--<ref bean="computeServiceImpl"></ref>-->
+        <!--</property>-->
+        <!--<property name="interceptorNames">-->
+            <!--<list>-->
+                <!--<value>timeSpendLogger</value>-->
+            <!--</list>-->
+        <!--</property>-->
+        <!--<property name="interfaces">-->
+            <!--<value>com.kun.leanring.spring.aop.service.ComputeService</value>-->
+        <!--</property>-->
+    <!--</bean>-->
 
-    <bean id="userBizServiceProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
-        <property name="target" ref="userBizService" />
-        <property name="interceptorNames">
-            <list>
-                <value>beforeMethodAdvice</value>
-            </list>
-        </property>
-    </bean>
+
 
     <!--AspectJ    poxy-target-class="true"CGLib动态代理技术织入增强 -->
-    <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <aop:aspectj-autoproxy/>
+
+
+    <!--
+     aop config: aop配置相关内容开始
+     aop:aspect 声明一个简单的切面，此处将logService声明为一个切面
+     aop:before 声明切面的不同通知类型
+       -->
+    <!--<aop:config>-->
+        <!--<aop:aspect ref="logService">-->
+            <!--<aop:pointcut id="pay" expression="execution(** com.kun.leanring.spring.usageaop.service.PayCoreServiceFacade.pay(..))"/>-->
+            <!--<aop:before pointcut-ref="pay" method="beforeLog"/>-->
+            <!--<aop:after pointcut-ref="pay" method="afterLog"/>-->
+            <!--<aop:after-returning pointcut-ref="pay" method="afterReturningLog"/>-->
+            <!--<aop:after-throwing pointcut-ref="pay" method="afterThrowingLog"/>-->
+            <!--<aop:around pointcut-ref="pay" method="aroundLog"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
 </beans>
