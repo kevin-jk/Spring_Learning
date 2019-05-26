@@ -370,7 +370,7 @@ protected void invokeInitMethods(String beanName, final Object bean, @Nullable R
 ```
 
 最后我们看下invokeInitMethods中的invokeCustomInitMethod方法：
-
+```java
 protected void invokeCustomInitMethod(String beanName, final Object bean, RootBeanDefinition mbd)
 			throws Throwable {
 
@@ -424,11 +424,13 @@ protected void invokeCustomInitMethod(String beanName, final Object bean, RootBe
 ​			}
 ​		}
 ​	}
+```
 
 分析上面的代码片段，总结初始化Bean的过程主要包括如下的流程：
 
 1. 调用一系列aware接口，将BeanName, BeanClassLoader, BeanFatory注入到Bean中去
-2.  
+2.  调用InitializingBean对应的实现
+3. 调用initMethod的实现
 
 
 
